@@ -52,6 +52,9 @@ where id_aluno=(select id_aluno from aluno where rm=11118);
 
 select * from endereco;
 
+delete from aluno where rm=11118;
+delete from endereco where id_aluno=8;
+
 --insert into aluno(id_aluno,nome,sobrenome,sexo,data_nasc,rm)
 --values (2,'Aluno','Fiap','I',to_date('25/12/1999','dd/mm/yyyy'),11112);
 
